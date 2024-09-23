@@ -192,9 +192,3 @@ java.lang.reflect.InaccessibleObjectException: Unable to make public boolean jav
 
 **解决方法：**  
 启动 haidnorJVM 时添加 JVM 参数 `--add-opens java.base/java.util=ALL-UNNAMED` 绕过访问性限制
-
-# 联系作者
-如果您也有兴趣，我们可以一起完善这个项目！欢迎！ 😀
-
-![](/readme/20230721181408.png )  
-微信号: haidnor
